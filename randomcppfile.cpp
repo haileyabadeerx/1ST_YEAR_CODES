@@ -11,14 +11,14 @@ int main() {
 
     const int lowerBound = 1;
     const int upperBound = 100;
-    const int maxAttempts = 7;
+    const int maxAttempts = 5;
 
     int secretNumber = rand() % (upperBound - lowerBound + 1) + lowerBound;
     int guess;
     int attempts = 0;
 
     cout << "Welcome to the HAIL GUESSING GAME!" << endl;
-    cout << "I've selected a number between " << lowerBound << " and " << upperBound << ". You have " << maxAttempts << " attempts to guess it." << endl;
+    cout << "I've generated a number between " << lowerBound << " and " << upperBound << ". You have " << maxAttempts << " attempts to guess it." << endl;
 
     while (attempts < maxAttempts) {
         cout << "Enter your guess: ";
