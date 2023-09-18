@@ -8,12 +8,15 @@ int main(int argc, const char * argv[])
     {
         printf("Input two positive integerts:\n");
         scanf("%d %d", &a, &b);
-        sum = a + b;
-        printf("The sum is %d\n", sum);
 
         if(a<0||b<0){
-            printf("You inputted a negative number.");
+            printf("You inputted a negative number.\n");
         }
+        else {
+        sum = a + b;
+        printf("The sum is %d\n", sum);
+        }
+
         printf("Try again? if yes=1 no=0\n");
         scanf("%d",&ans);
     }while(ans==1);
