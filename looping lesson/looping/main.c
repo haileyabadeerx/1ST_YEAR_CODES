@@ -10,6 +10,10 @@ int main(int argc, const char * argv[])
         scanf("%d %d", &a, &b);
         sum = a + b;
         printf("The sum is %d\n", sum);
+
+        if(a<0||b<0){
+            printf("You inputted a negative number.");
+        }
         printf("Try again? if yes=1 no=0\n");
         scanf("%d",&ans);
     }while(ans==1);
