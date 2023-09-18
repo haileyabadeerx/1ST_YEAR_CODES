@@ -17,7 +17,7 @@ int main() {
     int guess;
     int attempts = 0;
 
-    cout << "Welcome to the HAIL GUESSING GAME!" << endl;
+    cout << "Welcome to the HAIL GUESSING GAME!\n" << endl;
     cout << "I've generated a number between " << lowerBound << " and " << upperBound << ". You have " << maxAttempts << " attempts to guess it." << endl;
 
     while (attempts < maxAttempts) {
