@@ -10,7 +10,7 @@ int main(int argc, const char*argv[])
     scanf("%s", name);
 
     do {
-    printf("\nEnter number of second/s:\t");
+    printf("\nEnter number of second/s: ");
     scanf("%d", &seconds);
 
     if(seconds < 0){
@@ -18,7 +18,11 @@ int main(int argc, const char*argv[])
         valid = 1;
         continue;
     }
-    } while (valid = 1);
+    else {
+        break;
+    }
+    } while (valid == 1);
+
     hours = (seconds/3600);
     mins = (seconds - (hours*3600))/60;
     secs = (seconds - (hours*3600)-(mins*60));
