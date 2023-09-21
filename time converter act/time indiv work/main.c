@@ -5,7 +5,7 @@ int main(int argc, const char*argv[])
     char name[80];
     int seconds, hours, mins, secs;
 
-    printf("Enter your name please: \t");
+    printf("Enter your name please: ");
     scanf("%s", name);
 
     printf("\nEnter number of second/s:\t");
