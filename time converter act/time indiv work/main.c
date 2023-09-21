@@ -4,12 +4,21 @@ int main(int argc, const char*argv[])
 {
     char name[80];
     int seconds, hours, mins, secs;
+    int valid = 0;
 
     printf("Enter your name please: ");
     scanf("%s", name);
 
+    do {
     printf("\nEnter number of second/s:\t");
     scanf("%d", &seconds);
+
+    if(seconds < 0){
+        printf("I am sorry but that is a negative number. \nPlease try again.");
+        valid = 1;
+        continue;
+    }
+    } while (valid = 1);
     hours = (seconds/3600);
     mins = (seconds - (hours*3600))/60;
     secs = (seconds - (hours*3600)-(mins*60));
