@@ -31,7 +31,7 @@ int main(int argc, const char*argv[])
     printf("\tMinute/s: \t%d\n", mins);
     printf("\tSecond/s: \t%d\n\n", secs);
 
-    printf("%s, the time is \t%02d:%02d:%02d\n", name, hours, mins, secs);
+    printf("%s, the time is %02d:%02d:%02d\n", name, hours, mins, secs);
 
     return 0;
 }
