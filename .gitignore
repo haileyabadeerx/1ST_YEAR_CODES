@@ -1,3 +1,4 @@
 *.exe
 *.cbp
 *.depend
+*.layout
