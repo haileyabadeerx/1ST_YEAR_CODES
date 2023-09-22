@@ -4,9 +4,10 @@ int main(int argc, const char * argv[])
 {
     int quiz;
     printf("Welcome to Exam score evaluation checker!\n");
-    printf("\nREMEMBER: This program only accepts ASCII numbers.");
+    printf("\nREMEMBER: This program only accepts ASCII numbers.\n");
     printf("Enter your score:\n");
     scanf("%d", &quiz);
+
     switch(quiz)
     {
         case 'a': {printf("Hello\n");
