@@ -10,6 +10,7 @@ int main(int argc, const char * argv[])
     //eName is the employee's name
 
     printf("Good day, dear employee! What is your name?\n");
+    printf("Your name: ");
     scanf("%s", eName);
 
     printf("\nHow many hour/s of work have you rendered for this week?\n");
