@@ -18,6 +18,7 @@ int main(int argc, const char * argv [])
     int a, b, c, d, e, f, g, sum;
     float amount;
     char name[80];
+    printf("Hi there! This is a coin converter program.\n\n");
     printf("Name please:\t");
     scanf("%s", name);
     printf("Please enter your coins: \n");
