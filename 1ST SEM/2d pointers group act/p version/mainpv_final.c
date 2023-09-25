@@ -25,14 +25,14 @@ Sebastian, Brian May
 #include <windows.h>
 #include <conio.h>
 #include <ctype.h>
-#include <C:\2d pointers\p version\BubbleSortRows.c>
+/*#include <C:\2d pointers\p version\BubbleSortRows.c>
 #include <D:\2d pointers\p version\BubbleSortWhole.c>
 #include <C:\2d pointers\p version\GetArray.c>
 #include <C:\2d pointers\p version\printBoard.c>
 #include <D:\2d pointers\p version\showSortingSpinner.c>
 #include <C:\2d pointers\p version\showLoadingSpinner.c>
 #include <D:\2d pointers\p version\getAscendingOrDescending.c>
-#include <C:\2d pointers\p version\getYesOrNoInput.c>
+#include <C:\2d pointers\p version\getYesOrNoInput.c>*/
 
 #define ROWS 3
 #define COLS 3
