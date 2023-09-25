@@ -5,7 +5,7 @@ int main(int argc, const char * argv[])
     int M;
     int N1;
     int N2;
-    int count;
+    int count = 0;
 
     printf("Please input the starting number:\t");
     scanf("%d", &N1);
