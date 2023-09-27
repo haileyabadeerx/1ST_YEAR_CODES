@@ -73,7 +73,7 @@ int main()
 
     //INTRODUCTION TO THE PROGRAM
     printf("\n=============================================");
-    printf("\n\tWELCOME TO DAILY SUDOKU!\n");
+    printf("\n\tWELCOME TO SIMPLY SUDOKU!\n");
     printf("\nPlease tell us your name: ");
     scanf("%s", playerName);
     printf("=============================================");
