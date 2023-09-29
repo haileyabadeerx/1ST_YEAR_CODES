@@ -8,7 +8,7 @@ float division() {
 
     do {
         printf("=========================");
-        printf("\n\tDivision\t\n");
+        printf("\n\t Division \t\n");
         printf("=========================");
         printf("\nEnter the dividend: ");
         scanf("%f", &num1);
