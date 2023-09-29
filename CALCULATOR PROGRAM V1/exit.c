@@ -1,5 +1,5 @@
 int exitsure() {
-    printf("\nAre you sure you want to exit? (y/n): ");
+    printf("\n Are you sure you want to exit? (y/n): ");
     char sure;
     scanf("%c", &sure);
 
