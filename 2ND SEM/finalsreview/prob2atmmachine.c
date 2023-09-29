@@ -42,7 +42,7 @@ int main() {
     if (choice == 0) {
     
     system("cls");
-    printf("\nWelcome to PUP Online Banking Systems Main Menu\n");
+    printf("\nWelcome to HAIL Online Banking Systems Main Menu\n");
     printf("\n[1] Create Bank Account\n");
     printf("[2] ATM Login\n");
     printf("==Admin Commands==\n");
