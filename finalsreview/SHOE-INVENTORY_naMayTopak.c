@@ -393,7 +393,7 @@ int main(){
     char select;
 
     do{
-    printf("\n\nCIA Shoes Inventory");
+    printf("\n\nHAILCOMP Shoes Inventory");
     printf("\n-------------------");
     printf("\n\n[1] Enter new product");
     printf("\n[2] Display inventory");
