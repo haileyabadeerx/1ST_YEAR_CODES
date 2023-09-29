@@ -1,4 +1,5 @@
 #include <stdio.h>
+//directories
 #include <C:\Group6Calculator\addition.c>
 #include <C:\Group6Calculator\subtraction.c>
 #include <C:\Group6Calculator\multiplication.c>
