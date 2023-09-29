@@ -6,7 +6,7 @@ float subtraction() {
 
     do {
         printf("==========================");
-        printf("\n\tSubtraction\t\n");
+        printf("\n\t Subtraction \t\n");
         printf("==========================");
         printf("\nEnter the first number: ");
         scanf("%f", &num1);
