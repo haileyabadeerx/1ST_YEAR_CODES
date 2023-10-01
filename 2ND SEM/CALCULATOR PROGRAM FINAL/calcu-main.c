@@ -15,7 +15,7 @@ int main() {
     float result;
     char name[80];
 
-    printf("\t\tWelcome to Calculator Program!\n");
+    printf("\t\tWelcome to Hail Calculator Program!\n");
     printf("Please enter your name: ");
     scanf("%s", name);
 
