@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1666000373 source:c:\school\adbans\function\main.c
+	<stdio.h>
+	<stdlib.h>
+
