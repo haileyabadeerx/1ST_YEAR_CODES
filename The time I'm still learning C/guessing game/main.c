@@ -17,15 +17,15 @@ int main(){
         if(guessCount < guessLimit && guess != mysteryNumber){
         printf("\nOopsie ! Wrong guess. Now try again.\n");
         }
-        else {
+        else if (guessCount == guessLimit){
             NoMoreGuesses = 1;
         }
     }
 
     if(NoMoreGuesses == 1){
-        printf("Oops! Sorry but you ran out of guesses. Better luck next time.");
+        printf("\nOops! Sorry but you ran out of guesses. Better luck next time.");
     } else {
-        printf("Oh finally! You guessed it right :D");
+        printf("\nOh finally! You guessed it right :D");
     }
 
     return 0;
