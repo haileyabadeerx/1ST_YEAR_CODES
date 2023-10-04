@@ -14,7 +14,7 @@ int main(){
         scanf("%d", &guess);
         guessCount++;
 
-        if(guessCount < guessLimit){
+        if(guessCount < guessLimit && guess != mysteryNumber){
         printf("\nOopsie ! Wrong guess. Now try again.\n");
         }
         else {
