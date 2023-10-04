@@ -15,7 +15,9 @@ int main(){
         printf("What's the mystery number? ");
         scanf("%d", &guess);
         guessCount++;
+        printf("\nOopsie! That's wrong.\n");
         } while ( guess != mysteryNumber && NoMoreGuesses == 0 );
+        }
         else {
             NoMoreGuesses = 1;
         }
