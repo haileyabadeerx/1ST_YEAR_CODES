@@ -10,11 +10,11 @@ int main(){
     int NoMoreGuesses = 0;
 
     while(guess != mysteryNumber && NoMoreGuesses == 0){
-        if(guessCount < guessLimit){
         printf("What's the mystery number? ");
         scanf("%d", &guess);
         guessCount++;
 
+        if(guessCount < guessLimit){
         printf("\nOopsie ! Wrong guess. Now try again.\n");
         }
         else {
