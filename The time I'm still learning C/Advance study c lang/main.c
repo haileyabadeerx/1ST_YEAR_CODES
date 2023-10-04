@@ -1,3 +1,5 @@
+/* DISCLAIMER: IN LOVE PA AKO NETO KAYA YUCK YUNG SUBJECT NG IBANG SYNTAX*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
