@@ -10,14 +10,18 @@ int main()
 
     switch (words){
 
-    case passed:
+    case 1:{
+    if(words == passed)
     printf("Congratulations! You passed :D");
-
-
-
-
     }
-
+    break;
+    case 2:{
+    if(words == failed)
+    printf("Sorry, you failed. D:");
+    }
+    break;
+    default:
+        printf("Enter something valid please.");
 
 
 
