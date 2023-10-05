@@ -1,3 +1,6 @@
+/* I am experimenting this time if I can use strings on switch statements but I cannot*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
