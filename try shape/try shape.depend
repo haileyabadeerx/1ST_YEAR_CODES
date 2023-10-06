@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1666707127 source:c:\school\adbans\try shape\main.c
-	<stdio.h>
-	<stdlib.h>
-
-1667225770 source:c:\school\adbans\try shape\try switch.c
-	<stdio.h>
-	<stdlib.h>
-
