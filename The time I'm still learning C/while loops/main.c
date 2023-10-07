@@ -1,3 +1,4 @@
+/* kaya infinite loop to kasi natuwa ako sa itsura parang matrix lelz*/
 #include <stdio.h>
 #include <stdlib.h>
 
