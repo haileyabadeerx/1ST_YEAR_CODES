@@ -1,3 +1,5 @@
+/* disclaimer: in love pa ako nang nagppractice ako nito magstructs kaya nandito name niya, hindi ko na po sya mahal pls lang*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
