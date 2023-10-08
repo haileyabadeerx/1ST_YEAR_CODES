@@ -231,7 +231,7 @@ int main()
 */
     int i;
     system("color C6");
-    for(i=1;i<=1515151515151515;i++)
+    for(i=1;i<=15;i++)
     {
         printf(" BARBEKUKI !!! \2 \3 \t ");
     }
