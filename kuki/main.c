@@ -63,25 +63,25 @@ int main()
         printf("%d",YOU);
     printf("%d",YOU);
 */
-    int a;
-    int c;
-    x: a=5;
-    c++;
-    if(c==1)
-        {a=a*a;
-         printf("The value of a is %d\n",a);
-            goto x;
-        }
-    else
-    if(c==2){
-        a=a+a;
-        printf("The value of a is %d\n",a);
-            goto x;
-    }
-    else {
-        a=a-a;
-        printf("The value of a is %d\n",a);
-    }
+    // int a;
+    // int c;
+    // x: a=5;
+    // c++;
+    // if(c==1)
+    //     {a=a*a;
+    //      printf("The value of a is %d\n",a);
+    //         goto x;
+    //     }
+    // else
+    // if(c==2){
+    //     a=a+a;
+    //     printf("The value of a is %d\n",a);
+    //         goto x;
+    // }
+    // else {
+    //     a=a-a;
+    //     printf("The value of a is %d\n",a);
+    // }
     /*
     int x;
     float y;
@@ -228,12 +228,12 @@ int main()
 	else
 	    y=z;}
 
-
-    /*int i;
+*/
+    int i;
     system("color C6");
     for(i=1;i<=1515151515151515;i++)
     {
         printf(" BARBEKUKI !!! \2 \3 \t ");
-    }*/
+    }
     return 0;
 }
