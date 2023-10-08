@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1668001044 source:c:\school\adbans\for loops\main.c
+	<stdio.h>
+	<stdlib.h>
+

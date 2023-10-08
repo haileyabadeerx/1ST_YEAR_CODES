@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1675849862 source:c:\school\adbans\kuki\main.c
+	<stdio.h>
+	<stdlib.h>
+	<dos.h>
+
+1675623938 source:c:\school\1st sem\comp prog\unit 4\exercise 4-1\exercise 4-1.c
+	<stdio.h>
+
