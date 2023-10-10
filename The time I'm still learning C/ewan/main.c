@@ -1,3 +1,4 @@
+/* I created this program to impress someone I like before XD*/
 #include <stdio.h>
 #include <stdlib.h>
 
