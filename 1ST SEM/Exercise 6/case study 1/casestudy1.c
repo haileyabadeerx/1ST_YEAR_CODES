@@ -21,7 +21,6 @@ int main(int argc, const char * argv[]) {
     else
         printf("\n%d > %d is ABUNDANT\n", sum, N);
     }
-    return 0;
     } while(N <= 0);
 }
 
