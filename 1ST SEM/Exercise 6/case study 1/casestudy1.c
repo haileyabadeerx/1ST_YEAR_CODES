@@ -6,6 +6,7 @@ int main(int argc, const char * argv[]) {
     int N, result;
     printf("This program determines the proper divisors of an integer and\nidentifies whether its sum is DEFICIENT, PERFECT, or ABUNDANT.\n\n");
 
+    do {
         printf("Please enter an integer: ");
         scanf("%d", &N);
     if (N <= 0)
@@ -21,6 +22,7 @@ int main(int argc, const char * argv[]) {
         printf("\n%d > %d is ABUNDANT\n", sum, N);
     }
     return 0;
+    } while(N <= 0);
 }
 
 int KOMPUTE(int N, int *result) {
